@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: #A18276;
 }
 body {
   margin: 0px;
@@ -35,8 +36,10 @@ body {
 .column-header {
   font-size: 25px;
   position: relative;
-  background-color: white;
+  background-color: #F1D6B8;
+  border: 2px black solid;
   top: 8px;
+  color: black;
 }
 #big_coffee {
   user-select: none;
@@ -46,11 +49,14 @@ body {
 
 .counter-container {
   font-size: 30px;
+  color:white;
   margin: 10px;
+  border: 2px gold dashed;
 }
 
 .cps-container {
   font-size: 20px;
+  color: white;
 }
 
 #producer_container {
@@ -58,6 +64,7 @@ body {
   overflow: auto;
   border: 2px black solid;
   border-radius: 5px;
+  background-color: #F1D6B8
 }
 
 .producer {
@@ -76,9 +83,13 @@ body {
 
 .producer-title {
   font-size: 20px;
+  background-color:white;
+  border: 2px black solid;
 }
 
 .producer button {
   font-size: 15px;
   width: 50px;
+  border: 2px black solid;
+  background-color: #B9D2B1
 }
